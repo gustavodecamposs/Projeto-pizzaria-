@@ -6,23 +6,27 @@
     <title>Divina Pizza</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="headers.css">
+    <link rel="shortcut icon" href="img/logo-divina.ico" type="image/x-icon">
 </head>
 <body class="container-x1 bg-light">
     <header>
-        <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example"> 
+        <nav class="navbar navbar-dark bg-dark p-4" aria-label="First navbar example"> 
             <div class="container-fluid"> 
-                <a class="navbar-brand h1" href="01.html">Divina Pizza</a> 
-                <img src="#" alt=""><a class="" href="01.html"></a></img>
+                 <a class= "link-divinasup navbar-brand h1 display-3" href="01.html">Divina Pizza</a>
+                <div class>
+                    <img src="img/logo-divina.png" alt=""><a class="" href="01.html"></a></img>
+                
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation"> 
                 <span class="navbar-toggler-icon"></span> 
                 </button> 
                 <div class="collapse navbar-collapse" id="navbarsExample01"> 
                     <ul class="navbar-nav me-auto mb-2"> 
-                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> 
-                        <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
-                        <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </li> 
+                        <li class="nav-item"> <a class="nav-link active text-success" aria-current="page" href="#">Menu</a> </li> 
+                        <li class="nav-item"> <a class="nav-link text-danger" href="#">Nosso contato</a> </li>
+                        <li class="nav-item"> <a class="nav-link active text-success" aria-disabled="true">Disabled</a> </li> 
                         <li class="nav-item dropdown"> 
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a> 
+                            <a class="nav-link dropdown-toggle text-danger" href="#" data-bs-toggle="dropdown" aria-expanded="false">Cardápio</a> 
                         <ul class="dropdown-menu"> 
                             <li><a class="dropdown-item" href="#">Action</a></li> 
                             <li><a class="dropdown-item" href="#">Another action</a></li> 
@@ -37,28 +41,31 @@
     </header>
     
     <main>
-        <div class="container text-start">
+        <div class="container my-4">
             <div class="row">
-                <div class="col">
-                    <h3 class="h1">Divina Pizza</h3>
-                </div>
-            </div>
+                <div class="col-6">
 
+                </div>
+                
+            </div>
+            
         </div>
     </main>
 
-    <footer class=" bg-secondary row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"> 
-        <div class="col mb-3"> <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" aria-label="Bootstrap"> <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <p class="text-body-secondary">© 2025</p> 
+    <footer class="fixed-bottom bg-secondary row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top"> 
+        <div class="col mb-3"> 
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" aria-label="Bootstrap"> <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a>
+             <p class="text-body-secondary p-4 text-light">© 2025</p> 
         </div> 
         <div class="col mb-3"></div> 
         <div class="col mb-3"> 
-            <h5>Section</h5> 
+            <h5 class="text-light text-center">Section</h5> 
             <ul class="list-inline text-center footer__group footer__links js-footerLinks"> 
-                <li class="list-inline-item nav-item mb-2"><a href="#" class="footer__link-item js-international link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Sobre a pizza</a></li> 
-                <li class="list-inline-item nav-item mb-2"><a href="#" class="footer__link-item js-international link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Seja um franqueado</a></li> 
-                <li class="list-inline-item nav-item mb-2"><a href="#" class="footer__link-item js-international link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Fale Conosco</a></li>     
-                <li class="list-inline-item nav-item mb-2"><a href="#" class="footer__link-item js-international link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Políticas de Privacidade</a></li> 
-                <li class="list-inline-item nav-item mb-2"><a href="#" class="footer__link-item js-international link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Termos de uso</a></li> 
+                <li class="list-inline-item nav-item mb-2"><a href="#" class="text-light footer__link-item js-international link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Sobre a pizza</a></li> 
+                <li class="list-inline-item nav-item mb-2"><a href="#" class="text-light footer__link-item js-international link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Seja um franqueado</a></li> 
+                <li class="list-inline-item nav-item mb-2"><a href="#" class="text-light footer__link-item js-international link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Fale Conosco</a></li>     
+                <li class="list-inline-item nav-item mb-2"><a href="#" class="text-light footer__link-item js-international link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Políticas de Privacidade</a></li> 
+                <li class="list-inline-item nav-item mb-2"><a href="#" class="text-light footer__link-item js-international link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Termos de uso</a></li> 
             </ul> 
         </div> 
     </footer>
