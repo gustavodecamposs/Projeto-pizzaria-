@@ -1,7 +1,11 @@
+body {
+  overflow-x: hidden;
+}
+
 /* Headers */
 
 nav.bg-dark {
-  background: (--bs-tertiary-bg);
+  background: (--bs-tertiary-bg );
 }
 
 .form-control-dark {
@@ -26,3 +30,8 @@ a.link-divinasup::hover {
 
 /* Main */
 
+/* footer */
+
+footer.a::hover {
+  color: rgb(255, 143, 143);
+}
