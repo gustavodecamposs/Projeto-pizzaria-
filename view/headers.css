@@ -4,6 +4,17 @@ body {
 
 /* Headers */
 
+.header-links li:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-radius: 0.5rem;
+  transition: background 0.3s;
+}
+
+header > div > ul > li::hover {
+  background: rgba(0, 0, 0, 0.253)
+}
+
 nav.bg-dark {
   background: (--bs-tertiary-bg );
 }
